@@ -1,0 +1,3423 @@
+{
+    "version": "1.0.0",
+    "createdAt": 1488821034803,
+    "sources": [
+        "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C.2B.2B",
+        "https://de.wikipedia.org/wiki/Liste_von_Modultest-Software#C.2B.2B",
+        "https://www.google.com"
+    ],
+    "list": [
+        {
+            "id": 0,
+            "name": "Aeryn",
+            "description": null,
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://aeryn.tigris.org/",
+                "versionControl": {
+                    "github": "pjgrenyer/aeryn",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/aeryn/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 1,
+            "name": "API Sanity Checker",
+            "description": "Unit test generator for C/C++ libraries. Can automatically generate reasonable input data for every API function. LGPL.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": true,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://lvc.github.io/api-sanity-checker/",
+                "versionControl": {
+                    "github": "lvc/api-sanity-checker",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/API_Sanity_Checker"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 2,
+            "name": "ATF",
+            "description": "BSD Licensed. Originally developed for the NetBSD operating system but works well in most Unix-like platforms. Ability to install tests as part of a release.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "jmmv/atf",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Automated_Testing_Framework"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 3,
+            "name": "Bandit",
+            "description": "Header only. Automatic test registration. Specifically developed for C++11",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://banditcpp.org/",
+                "versionControl": {
+                    "github": "banditcpp/bandit",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 4,
+            "name": "Boost Test Library",
+            "description": "Part of Boost",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": true,
+                "mocks": null,
+                "exceptions": true,
+                "macros": null,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.boost.org/doc/libs/1_63_0/libs/test/doc/html/index.html",
+                "versionControl": {
+                    "github": "boostorg/boost",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 5,
+            "name": "BugEye",
+            "description": "Header-only. TAP output.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": false,
+                "templates": false,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "Munkei/BugEye",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 6,
+            "name": "Cantata++",
+            "description": "Commercial. Automated OO unit and integration testing on host and embedded systems with code coverage and unique call interface control to simulate and intercept calls.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://www.qa-systems.com/tools/cantata/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Cantata%2B%2B"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 7,
+            "name": "CATCH",
+            "description": "Header only, no external dependencies, auto-registration, tdd and bdd features",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "philsquared/Catch",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 8,
+            "name": "cfix",
+            "description": "Specialized for Windows development—both Win32 and NT kernel mode. Compatible to WinUnit.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.cfix-testing.org/unit-testing-framework/windows/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cfix/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 9,
+            "name": "CPPOCL/test",
+            "description": "Released Under Apache 2.0, Compliant with C++ 98 and C++ 11. Works for Linux and Windows 32/64 bit using gcc, Cygwin, VS2005 and VS2015. Header file only library. Provides ability to write performance tests in a similar way to unit tests. Has some support for reporting memory leaks.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": null,
+                "exceptions": true,
+                "macros": true,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://cppocl.co.uk/",
+                "versionControl": {
+                    "github": "cppocl/unit_test_framework",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "Apache-2.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 10,
+            "name": "CppTest",
+            "description": "Released under LGPL",
+            "supports": {
+                "xUnit": null,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": true,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://cpptest.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cpptest/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 11,
+            "name": "cpptest-lite",
+            "description": "Released under MIT. Developed for C++11.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": true,
+                "macros": true,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "doe300/cpptest-lite",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 12,
+            "name": "CppUnit",
+            "description": "Released under LGPL",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://freedesktop.org/wiki/Software/cppunit/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cppunit/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/CppUnit"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 13,
+            "name": "CppUnitLite",
+            "description": null,
+            "supports": {
+                "xUnit": true,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": false,
+                "exceptions": false,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "na",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 14,
+            "name": "CppUTest",
+            "description": "Limited C++ set by design to keep usage easy and allow it to work on embedded platforms. C++ is buried in macros so the learning curve for C programmers is minimal. Ported to Symbian. Has a mocking support library CppUMock",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": true,
+                "exceptions": false,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://cpputest.github.io/",
+                "versionControl": {
+                    "github": "cpputest/cpputest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cpputest/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-3-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 15,
+            "name": "CPUnit",
+            "description": "Released under BSD.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://cpunit.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cpunit/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 16,
+            "name": "Cput",
+            "description": "Library and MS Visual Studio add-in to create and run unit tests. Open Source.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": null,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":codeplex",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": "http://cput.codeplex.com/",
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 17,
+            "name": "Criterion",
+            "description": "Unit testing framework with automatic test registration. Needs C++11 compiler support for the C++ API. Supports theories and parameterized tests. Each test is run in its own process, so signals and crashes can be reported. Can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, OS X, FreeBSD, and Windows. Released under the MIT license.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "Snaipe/Criterion/",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 18,
+            "name": "crpcut",
+            "description": "BSD 2 clause. Runs each test in its own process, guaranteeing that the test suite continues even in the event of an unexpected crash or infinite loop.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": false,
+                "exceptions": null,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://crpcut.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/crpcut/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 19,
+            "name": "CUTE",
+            "description": "CUTE (C++ Unit Testing Easier) with Eclipse CDT integration. Single line include, without inheritance. Mock support is provided by Mockator.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": true,
+                "exceptions": true,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.cute-test.com/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-3.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 20,
+            "name": "cutee",
+            "description": null,
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": false,
+                "generators": true,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.codesink.org/cutee_unit_testing.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 21,
+            "name": "CxxTest",
+            "description": "Uses a C++ parser and code generator (requiring Python) for test registration. * Has a framework for generating mocks of global functions, but not for generating mocks of objects.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": null,
+                "exceptions": null,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://cxxtest.com/",
+                "versionControl": {
+                    "github": "CxxTest/cxxtest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/cxxtest",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 22,
+            "name": "doctest",
+            "description": "The lightest feature rich C++ single header testing framework",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "onqtam/doctest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 23,
+            "name": "EasyUnit",
+            "description": null,
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://easyunit.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/easyunit",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 24,
+            "name": "Embunit",
+            "description": "Commercial. Create unit tests for C/C++ and Embedded C++",
+            "supports": {
+                "xUnit": false,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": false,
+                "exceptions": true,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.embunit.com/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 25,
+            "name": "Exercisix",
+            "description": "BSD-licensed. Aimed to make adding tests as fast and easy as possible.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://alexanderchuranov.com/software/exercisix/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 26,
+            "name": "FakeIt",
+            "description": "Use the latest C++11 features to create an expressive, yet very simple, API. MIT license.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "eranpeer/FakeIt",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 27,
+            "name": "FCTX",
+            "description": "Fast and complete unit testing framework all in one header. Declare and write your functions in one step. No dependencies. Cross platform.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": false,
+                "macros": true,
+                "templates": false,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://fctx.wildbearsoftware.com/;http://web.archive.org/web/20120312163345/http://fctx.wildbearsoftware.com//",
+                "versionControl": {
+                    "github": "imb/fctx",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 28,
+            "name": "Fructose",
+            "description": "A simple unit test framework.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": false
+            },
+            "references": {
+                "homepage": "http://www.andrewpetermarlow.co.uk/software/fructose.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/fructose/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 29,
+            "name": "Google Test",
+            "description": "Supports automatic test discovery, a rich set of assertions, user-defined assertions, death tests, fatal and non-fatal failures, various options for running the tests, and XML test report generation.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "google/googletest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Google_Test"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 30,
+            "name": "Hestia",
+            "description": "Open source. Can test servers, libraries, and applications, and also test embedded software.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":sourceforge",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/hestia/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 31,
+            "name": "Hippomocks",
+            "description": null,
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": false,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://hippomocks.com/Main_Page",
+                "versionControl": {
+                    "github": "dascandy/hippomocks",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 32,
+            "name": "Igloo",
+            "description": "BDD style unit testing in C++",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://igloo-testing.org/",
+                "versionControl": {
+                    "github": "joakimkarlsson/igloo",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 33,
+            "name": "lest",
+            "description": "Tiny header-only C++11 test framework",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": false
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "martinmoene/lest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 34,
+            "name": "liblittletest",
+            "description": "liblittletest is a portable, one file header-only C++ library for unit testing. Supports a rich set of assertions, automatic test discovering and various options for running the tests.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "etr/liblittletest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 35,
+            "name": "libunittest",
+            "description": "libunittest is a portable C++ library for unit testing making use of C++11.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://libunittest.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/libunittest/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 36,
+            "name": "Microsoft Unit Testing Framework for C++",
+            "description": "Commercial. Integrated into Microsoft Visual Studio 2012 IDE and later versions.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "https://msdn.microsoft.com/en-us/library/hh598953.aspx",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 37,
+            "name": "mock++/mockcpp",
+            "description": "Simple testing framework for C++ (requires cmake)",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://code.google.com/archive/p/mockcpp/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": "godsme/mockcpp",
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-3.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 38,
+            "name": "Mockator",
+            "description": "Header-only mock object library and an Eclipse plug-in to create test doubles in a simple yet powerful way; leverages new C++11 language facilities while still being compatible with C++03; has built-in support for CUTE",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": false,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://mockator.com/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 39,
+            "name": "mockitopp",
+            "description": "A C++ mock object framework providing similar syntax to mockito for Java.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "tpounds/mockitopp",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 40,
+            "name": "mockpp",
+            "description": "A C++ mocking framework hosted by Google",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": true,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://mockpp.sourceforge.net/index-en.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/mockpp/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 41,
+            "name": "NanoCppUnit",
+            "description": "Proof-of-concept",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": false,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://web.archive.org/web/20060118114838/http://www.xpsd.org/cgi-bin/wiki?NanoCppUnit",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 42,
+            "name": "NullUnit",
+            "description": "Low effort, easy to use. Supports automatic test discovery, user-defined assertions, fatal and non-fatal conditions, XML test report generation, and strong support for IDE integration.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://code.google.com/archive/p/nullunit/",
+                "versionControl": {
+                    "github": "jdmclark/nullunit",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 43,
+            "name": "OAKUT",
+            "description": "Uses shared libraries / DLLs",
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": true,
+                "generators": null,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.oaklib.org/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 44,
+            "name": "Opmock",
+            "description": "Stubbing and mocking framework for C and C++ based on code generation from headers. Does not imply modification to your existing code, so well suited for legacy code refactoring. In particular, you don't need virtual operations or abstract classes. Can check call parameters, call sequence, handle multiple implementations of a mock, and more. Includes as well a small unit testing framework, with Junit compatible xml output, but works also with any unit testing framework. GPL license.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": true,
+                "exceptions": false,
+                "macros": true,
+                "templates": false,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":sourceforge",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/opmock/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 45,
+            "name": "Parasoft C/C++test",
+            "description": "Commercial. Automated unit/component test generation and execution on host or embedded systems with code coverage and runtime error detection. Also provides static analysis and peer code review.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "https://www.parasoft.com/product/cpptest/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Parasoft_C/C%2B%2Btest"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 46,
+            "name": "QtTest",
+            "description": "Built on the ultra cross platform Qt Library. Allows testing on Windows, Mac OS X, Linux, BSD, Symbian, and any other platform Qt can build on.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": null,
+                "macros": false,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://doc.qt.io/qt-5/qttest-index.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 47,
+            "name": "QuickCheck++",
+            "description": "Framework for automatically generating tests. Inspired by QuickCheck",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://software.legiasoft.com/quickcheck/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 48,
+            "name": "QuickTest",
+            "description": null,
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": false
+            },
+            "references": {
+                "homepage": "http://quicktest.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/quicktest/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 49,
+            "name": "SafetyNet",
+            "description": "Lightweight fast unit testing framework that is easy to set up and use. Works on Windows and Linux. Supports GNU C++, VC++, MinGW, QtSDK and can create test projects for VisualStudio, CodeBlocks, Eclipse, KDevelop",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": true,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": false
+            },
+            "references": {
+                "homepage": "http://quicktest.sf.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 50,
+            "name": "ShortCUT",
+            "description": null,
+            "supports": {
+                "xUnit": false,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "https://www.codeproject.com/kb/applications/shortcut.aspx?print=true",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "CPOL-1.02",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 51,
+            "name": "STRIDE",
+            "description": "Commercial. Embedded software quality solution that includes techniques for unit, API, Behavior & Integration testing as well as interactive reporting portal",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://www.stridewiki.com/index.php?title=Stride_Overview",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 52,
+            "name": "Symbian OS Unit",
+            "description": "Based on CxxTest",
+            "supports": {
+                "xUnit": true,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":sourceforge",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/symbianosunit",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 53,
+            "name": "TBrun",
+            "description": "Commercial.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.ldra.com/en/tbrun",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/LDRA_Testbed"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 54,
+            "name": "TDOG",
+            "description": "TDOG is a lightweight, portable and open source C++ xUnit Testing Framework.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://kuiper.zone/tdog-xunit-test-framework-cpp/",
+                "versionControl": {
+                    "github": "kuiperzone/tdog",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "Apache-2.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 55,
+            "name": "Tessy",
+            "description": "Commercial.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://www.razorcat.com/de/tessy.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "https://en.wikipedia.org/wiki/Tessy_(software)"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 56,
+            "name": "Test soon",
+            "description": "Complex macro logic (deliberately)",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": false,
+                "exceptions": null,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://testsoon.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/testsoon/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 57,
+            "name": "Testwell CTA++",
+            "description": "Commercial.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": false,
+                "groupFixtures": false,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.testwell.fi/ctadesc.html",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 58,
+            "name": "tinytest",
+            "description": "Standalone, no dependencies, header-only. Apache license.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": true,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "ccosmin/tinytest",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "Apache-2.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 59,
+            "name": "tpunit++",
+            "description": "A simple, portable C++ xUnit library contained in a single header.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": false,
+                "mocks": false,
+                "exceptions": null,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "tpounds/tpunitpp",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 60,
+            "name": "Trompeloeil",
+            "description": "Simple, yet powerful, single header framework for mocking. Requires C++14. Boost Software License.",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "rollbear/trompeloeil",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSL-1.0",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 61,
+            "name": "TUT",
+            "description": "Based on templates. Automatic test registration/discovery, customizable reports generation process, various tests run options. Easy adaptable to work on Windows CE.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": false,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://mrzechonek.github.io/tut-framework/",
+                "versionControl": {
+                    "github": "mrzechonek/tut-framework",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 62,
+            "name": "Typemock Isolator++",
+            "description": "Commercial. Isolation/Mocking Framework for C/C++",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "https://www.typemock.com/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 63,
+            "name": "Unit++",
+            "description": null,
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://unitpp.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/unitpp/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 64,
+            "name": "unit.hpp",
+            "description": "Extremely lightweight single header (<500loc) unit testing framework. It follows the spirit of D in regards to unit tests. Automatic test discovery. RAII style test setup that are reusable in SECTIONs (Similar to Catch).",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": true,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "na",
+                "versionControl": {
+                    "github": "burner/sweet.hpp",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-3.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 65,
+            "name": "UnitTest++",
+            "description": "UnitTest++ is free software. Simplicity, portability, speed, and small footprint are all important aspects of UnitTest++.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": null,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "unittest-cpp/unittest-cpp",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 66,
+            "name": "upp11",
+            "description": "Free software. Minimal (single small header), auto test registrations, parametrized tests, etc. C++11 only.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": ":github",
+                "versionControl": {
+                    "github": "DronMDF/upp11",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "GPL-2.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 67,
+            "name": "UquoniTest",
+            "description": "Commercial. Adds features like easy creation of (reusable) test directories, Rich Booleans in assertions, and more.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": false,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://www.q-mentum.com/uquonitest.php",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 68,
+            "name": "VectorCAST/C++",
+            "description": "Commercial. Automated unit and integration testing, and code coverage.",
+            "supports": {
+                "xUnit": false,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": true,
+                "exceptions": true,
+                "macros": true,
+                "templates": true,
+                "grouping": true
+            },
+            "references": {
+                "homepage": "http://www.vectorcast.com/software-testing-products/c-unit-testing",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": true,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 69,
+            "name": "Visual Assert",
+            "description": "Unit-Testing Add-In for Visual Studio. Based on the cfix testing framework.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": false,
+                "generators": false,
+                "mocks": false,
+                "exceptions": true,
+                "macros": true,
+                "templates": false,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://www.visualassert.com/",
+                "versionControl": {
+                    "github": "jpassing/visualassert",
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "LGPL-3.0",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 70,
+            "name": "WinUnit",
+            "description": "Focused more toward C/C++ than .NET developers",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": null,
+                "macros": null,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://winunit.codeplex.com/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        },
+        {
+            "id": 71,
+            "name": "xTests",
+            "description": "Depends on STLSoft C & C++ Libraries",
+            "supports": {
+                "xUnit": null,
+                "fixtures": null,
+                "groupFixtures": null,
+                "generators": null,
+                "mocks": null,
+                "exceptions": true,
+                "macros": true,
+                "templates": null,
+                "grouping": null
+            },
+            "references": {
+                "homepage": "http://xtests.sourceforge.net/",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": null,
+                    "sourceforge": "projects/xtests/",
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "BSD-2-Clause",
+                "proprietary": false,
+                "unambiguously": false,
+                "verified": false
+            }
+        },
+        {
+            "id": 72,
+            "name": "xUnit++",
+            "description": "Supports running tests concurrently. Macros are only used for test setup, not for test assertions.",
+            "supports": {
+                "xUnit": true,
+                "fixtures": true,
+                "groupFixtures": true,
+                "generators": true,
+                "mocks": null,
+                "exceptions": true,
+                "macros": null,
+                "templates": true,
+                "grouping": null
+            },
+            "references": {
+                "homepage": ":bitbucket",
+                "versionControl": {
+                    "github": null,
+                    "codeplex": null,
+                    "bitbucket": "moswald/xunit",
+                    "sourceforge": null,
+                    "others": []
+                },
+                "documentation": [],
+                "download": null,
+                "tutorials": [],
+                "version": {
+                    "label": null,
+                    "released": 0,
+                    "source": ""
+                },
+                "changeLog": null,
+                "forum": null,
+                "wikipedia": "na"
+            },
+            "versionControlSystem": {
+                "git": null,
+                "svn": null
+            },
+            "license": {
+                "licenseId": "MIT",
+                "proprietary": false,
+                "unambiguously": true,
+                "verified": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "utfc",
+  "version": "1.0.0",
+  "description": "Unit Testing Framework Comparision",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.michael-hudak.de/mhudak/utfc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Hudak",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "bluebird": "^3.5.0",
+    "editor": "^1.0.0",
+    "flat": "^2.0.1",
+    "github": "^9.2.0",
+    "json2xls": "^0.1.2",
+    "jsonexport": "^1.5.2",
+    "jsonfile": "^2.4.0",
+    "request": "^2.80.0",
+    "sync": "^0.2.5",
+    "sync-request": "^4.0.1",
+    "tmp": "0.0.31",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
